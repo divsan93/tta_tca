@@ -6,7 +6,6 @@ import (
 	"io/ioutil"
 	"os"
 	"path"
-
 	"github.com/konveyor/tackle2-addon/command"
 )
 

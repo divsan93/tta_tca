@@ -1,0 +1,21 @@
+name = 'TKLTEST_CONFIG_FILE'
+
+[general]
+app_name = 'onlinebookstore'
+monolith_app_path = ['/working/onlinebookstore/OnlineBookStore/servlets']
+app_classpath_file = ''
+java_jdk_home = '/usr/lib/jvm/java-11-openjdk-11.0.16.1.1-1.el8_6.x86_64'
+offline_instrumentation = true
+build_type = 'maven'
+
+[generate]
+time_limit = 2
+add_assertions = false
+app_build_files = ['/working/onlinebookstore/pom.xml']
+target_class_list = []
+
+[generate.ctd_amplified]
+base_test_generator = 'combined'
+interaction_level = 1
+no_ctd_coverage = false
+num_seq_executions = 2

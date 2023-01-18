@@ -1,4 +1,4 @@
-module github.com/konveyor/tackle2-addon-test-generator
+module github.com/divsan93/tta_tca
 
 go 1.16
 
